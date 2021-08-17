@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>TECH-SHOP</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <h2 class="logotipo">TECH-SHOP</h2>
+            <nav>
+                <a href="#" class="activo">Inicio</a>
+                <a href="login.html">Login</a>
+                <a href="#items">Articulos</a>
+                <a href="#">Contacto</a>
+                <a href="#milist">Mi lista</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="menu-principal">
+            <div class="contenedor">
+                <h3 class="titulo">BIENVENIDO A NUESTRA TIENDA</h3>
+                <p class="descripcion">
+                    En nuestra tienda online encontraras diferentes articulos tecnológicos con los más altos estandares
+                    de calidad.
+                    Contamos con un personal de trabajo 100% capacitado para ofrecerte la mejor atención y experiencia
+                    en compras.
+                    En TECH-SHOP nos importa tu seguridad por ello implementamos altos margenes de seguridad, para que
+                    tus compras sean 100% seguras y confiables.
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <section id="caract">
+                <div id="des-icon" class="icon">
+                    <div class="inf">
+                        <img src="https://image.flaticon.com/icons/png/128/2977/2977921.png" class="rounded float-start"
+                            alt="descuento">
+                        <h2>DESCUENTO</h2>
+                        <p>Descuento garantizado de un 15 % por compras mayores a 200.000 pesos colombianos. Entre más
+                            elevada sea la compra
+                            más alto será el descuento aplicado.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="envio-icon" class="icon">
+                    <div class="inf">
+                        <img src="https://image.flaticon.com/icons/png/128/71/71222.png" class="rounded float-start"
+                            alt="envio">
+                        <h2>ENVIO</h2>
+                        <p>Contamos con un excelente servicio de envios, con el mayor alcance nacional y ventas
+                            internacionalmente,
+                            además contamos con servicio pago contra-entrega, el cual genera mayor credibilidad para
+                            nuestros usuarios teniendo así la
+                            certeza de una compra segura.
+                        </p>
+                    </div>
+                </div>
+                <div id="proteger-icon" class="icon">
+                    <div class="inf">
+                        <img src="https://image.flaticon.com/icons/png/128/1320/1320521.png" class="rounded float-start"
+                            alt="proteger">
+                        <h2>SEGURIDAD</h2>
+                        <p>Todas sus compras son 100% seguras, ya que nuestra página web cuenta con protocolo https y
+                            demás points de verificación
+                            impidiendo que sus datos puedan ser filtrados y manipulados con fines negativos. También
+                            contamos con la politica de servicio
+                            "si no le gusta el producto, le regresamos su dinero".
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="articulos">
+
+        <h2 id="st">DISPOSITIVOS MOVILES</h2>
+
+        <div class="row" id="items"></div>
+
+        <template id="template-product">
+            <div class="card">
+                <h5 id="tit"></h5>
+                <img id="image" src="" alt="" class="img-thumbnail my-4"></img>
+                <button type="button" class="btn">COMPRAR</button>
+            </div>
+        </template>
+
+
+        <div id="detail"></div>
+        <div id="listaCompra"></div>
+        <div id="listaTotal"></div>
+        </div>
+
+     <footer id="end">
+        <footer>
+            <ul >
+                <li>DAVID CARDONA</li>
+                <li>3104027113</li>
+                <li>davidcardonagarcia711@gmail.com</li>
+            </ul>
+            <span>&#9400;opyright 2021, TECH-SHOP.INC</span>
+     </footer>
+
+        <script type="module" src="./script/script.js"></script>
+</body>
+
+</html>

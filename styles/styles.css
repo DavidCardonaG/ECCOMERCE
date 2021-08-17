@@ -1,0 +1,240 @@
+:root {
+	--rojo: #ff0000;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: white;
+	font-family: 'Open Sans', sans-serif;
+    background:rgba(114, 110, 110, 0.705);
+}
+#st{
+    text-align: center;
+    margin-top:2rem;
+    font-size:3rem;
+    font-weight:bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+.contenedor {
+	width: 100%;
+	margin: auto;
+}
+header {
+	padding: 30px 0;
+    background-color: black;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logotipo {
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: normal;
+	color: var(--rojo);
+	font-size: 40px;
+    font-style: italic;
+    margin-left: 2rem;
+
+}
+
+header nav a {
+	color: #AAA;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: #FFF;
+}
+
+.menu-principal {
+	font-size: 16px;
+	min-height: 42.35em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .20) 0%, rgba(0,0,0,.20) 100%), url("https://cdn.andro4all.com/files/2020/03/Huawei-P40-Pro-fondo-de-pantalla.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 3.15em;
+	display: flex;
+	align-items: end;
+}
+
+.menu-principal .contenedor {
+	margin: 0 auto;
+	margin-bottom: 7em;
+}
+
+.menu-principal .titulo {
+	font-weight: 600;
+	font-size: 3em;
+	margin-bottom: 0.4em;
+    margin-top:3rem;
+    text-align: center;
+}
+.menu-principal .descripcion {
+	font-weight: normal;
+	font-size: 1.2em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+    margin-left: 2rem;;
+}
+
+.menu-principal .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+.container{
+    background-color:rgba(211, 211, 211, 0.521);
+    max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+}
+.container p{
+    font-size:1rem;
+    font-style: italic;
+}
+#caract{
+       margin-top: 40px;
+    }
+    #carac.icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+    }
+    @media (max-width: 700px) {
+        #caract.icon {
+          display: none;
+        }
+      }
+      #caract.inf{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 125px;
+        width: 80vw;
+        padding: 5px;
+      }
+      @media (max-width: 550px) {
+        #caract.inf{
+          width: 100%;
+          text-align: center;
+          padding: 0;
+          height: 150px;
+        }
+      }
+      @media (max-width: 650px) {
+        #caract {
+          margin-top: 0;
+        }
+      }
+      
+      #image{
+        max-width: 100%;
+        width: 200px;
+        margin-left: 20px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+        line-height: 10px;
+    }
+    .card{
+        width: 350px;
+        height: 350px;
+        border-radius: 8px;
+        box-shadow: 1px 2px 2px 2px rgb(19, 18, 18);
+        overflow: hidden;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    #template-product{
+        width: 100%;
+        max-width: 1200px;
+        height: auto;
+        justify-content: center;
+        align-content: center;
+        margin: 0 auto;
+    }
+    
+    .row{
+        margin-left: 70px;
+    }
+    
+    h5{
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    .card>img{
+        width: 250px;
+        height: 250px;
+    
+    }
+    .card:hover{
+        transform:translateY(-25px);
+    box-shadow: 0 12px 16px lightgray;
+    }
+    #items{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+    }
+    #tit{
+        font-size:1.5rem;
+    }
+    .btn{
+        margin-top:2rem;
+        font-size: 1.5rem;
+        border-radius:10px;
+        cursor: pointer;
+        background-color:black;
+        color: white;
+    }
+    #articulos{
+        background-color:lightgray;
+    }
+    footer {
+        background-color: rgba(187, 187, 187, 0.842);
+        padding: 20px;
+      }
+      
+      footer > ul {
+        display: flex;
+        justify-content: center;
+      }
+      
+      footer > ul > li {
+        padding: 0 10px;
+        list-style: none;
+      }
+      
+      footer > span {
+          font-weight: bold;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        color: rgb(3, 3, 3);
+
+      }
